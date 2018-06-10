@@ -13,12 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="189dp"
+        android:layout_marginTop="195dp"
         android:ems="10"
         android:hint="Player 1"
-        android:textStyle="italic"
+        android:inputType="textPersonName"
+        android:maxLength="9"
         android:textColor="@color/colorPrimaryDark"
-        android:inputType="textPersonName" />
+        android:textStyle="italic" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -36,12 +37,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="203dp"
-        android:textStyle="italic"
-        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="192dp"
         android:ems="10"
         android:hint="Player 2"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:maxLength="9"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/button"
@@ -49,7 +51,7 @@
         android:layout_height="62dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="101dp"
+        android:layout_marginBottom="88dp"
         android:text="START" />
 
 </RelativeLayout>

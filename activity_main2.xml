@@ -15,21 +15,22 @@
             android:id="@+id/TVP1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:freezesText="true"
             android:text="Player 1 : 0"
-            android:textStyle="italic"
             android:textColorHighlight="@color/colorPrimaryDark"
             android:textSize="30sp"
-            android:freezesText="true"/>
+            android:textStyle="italic" />
+
         <TextView
             android:id="@+id/TVP2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Player 2 : 0"
-            android:textStyle="italic"
-            android:textColorHighlight="@color/colorPrimaryDark"
             android:layout_below="@+id/TVP1"
+            android:freezesText="true"
+            android:text="Player 2 : 0"
+            android:textColorHighlight="@color/colorPrimaryDark"
             android:textSize="30sp"
-            android:freezesText="true"/>
+            android:textStyle="italic" />
 
         <Button
             android:id="@+id/BRESET"
@@ -53,21 +54,21 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:freezesText="true"/>
         <Button
             android:id="@+id/B01"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:freezesText="true"/>
         <Button
             android:id="@+id/B02"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:freezesText="true"/>
 
     </LinearLayout>
@@ -82,21 +83,21 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:freezesText="true"/>
         <Button
             android:id="@+id/B11"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:freezesText="true"/>
         <Button
             android:id="@+id/B12"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:freezesText="true"/>
 
     </LinearLayout>
@@ -111,21 +112,21 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:freezesText="true"/>
         <Button
             android:id="@+id/B21"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:freezesText="true"/>
         <Button
             android:id="@+id/B22"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
+            android:textSize="40sp"
             android:freezesText="true"/>
 
     </LinearLayout>

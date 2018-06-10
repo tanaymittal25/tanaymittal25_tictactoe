@@ -1,6 +1,7 @@
 package com.example.tanay.tictactoe;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -51,6 +52,8 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         TVPlay1 = findViewById(R.id.TVP1);
         TVPlay2 = findViewById(R.id.TVP2);
 
+        TVPlay1.setTextColor(Color.BLUE);
+        TVPlay2.setTextColor(Color.BLUE);
         TVPlay1.setText("> "+P1+" : 0");
         TVPlay2.setText("   "+P2+" : 0");
 
@@ -81,8 +84,10 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
             return;
         }
         if (P1Turn) {
+            ((Button) v).setTextColor(Color.RED);
             ((Button) v).setText(String.valueOf(P11));
         } else {
+            ((Button) v).setTextColor(Color.BLUE);
             ((Button) v).setText(String.valueOf(P22));
         }
         roundCount++;
